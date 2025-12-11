@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan Sebastián Neuta Rey | Portafolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dark-mode.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="cuerpo-pagina">
+  
+    <nav class="barra-navegacion">
+        <div class="contenido-navegacion">
+            <a href="mifolio.html" class="logo-navegacion">
+                <!--<img src="logo.png" alt="Logo" height="40" loading="lazy" onerror="this.onerror=null;this.src='logo.svg';this.style.objectFit='contain';" />-->
+            </a>
+            <button class="alternador-menu-movil">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="enlaces-navegacion">
+                <span class="indicador-activo" aria-hidden="true"></span>
+                <a href="#sobre-mi" class="enlace-navegacion">Sobre Mí</a>
+                <a href="#habilidades" class="enlace-navegacion">Habilidades</a>
+                <a href="#proyectos" class="enlace-navegacion">Proyectos</a>
+                <a href="#experiencia" class="enlace-navegacion">Experiencia</a>
+                <a href="#proceso" class="enlace-navegacion">Proceso</a>
+                <a href="#contacto" class="enlace-navegacion">Contacto</a>
+                <a href="#ambiente-visual" class="enlace-navegacion">Mood Visual</a>
+                <a href="#proposito" class="enlace-navegacion">Propósito</a>
+               
+            </div>
+            <div class="controles-navegacion">
+                <button id="alternar-tema" class="cambiar-tema" aria-label="Cambiar tema">
+                    <i class="fas fa-sun"></i>
+                    <i class="fas fa-moon"></i>
+                </button>
+                
+            </div>
+        </div>
+        <div class="progreso-navegacion"></div>
+    </nav>
+
+    <section id="inicio" class="seccion-hero">
+        <div class="hero-decoraciones" aria-hidden="true">
+            <span class="burbuja b1"></span>
+            <span class="burbuja b2"></span>
+            <span class="burbuja b3"></span>
+        </div>
+        <div class="contenido-hero">
+            <h1 class="escritor-automatico"><span class="texto-animado">Hola, soy  Sebastián Neuta </span></h1>
+            <p class="subtitulo">Transformo ideas en experiencias digitales cautivadoras, fusionando diseño multimedia y programación para crear interfaces que no solo se ven increíbles, sino que también conectan profundamente con el usuario.</p>
+            <div class="hero-chips">
+                <span class="chip">Diseño Web</span>
+                <span class="chip">UI/UX</span>
+                <span class="chip">Frontend</span>
+            </div>
+            
+            <div class="hero-cta">
+                <a href="#contacto" class="btn-primary">¡Trabajemos Juntos!</a>
+                <a href="#proyectos" class="btn-secondary">Ver Proyectos</a>
+            </div>
+        </div>
+        <div class="imagen-hero">
+            <img src="img/yo 2.png" alt="Sebastián Neuta - Diseñador Web" loading="lazy" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgdmlld0JveD0iMCAwIDMwMCAzMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIzMDAiIGhlaWdodD0iMzAwIiBmaWxsPSIjRjJGMUU5Ii8+CjxjaXJjbGUgY3g9IjE1MCIgY3k9IjEyMCIgcj0iNDAiIGZpbGw9IiM3RjlDOTQiLz4KPHJlY3QgeD0iMTAwIiB5PSIxODAiIHdpZHRoPSIxMDAiIGhlaWdodD0iODAiIHJ4PSI0MCIgZmlsbD0iIzNFNTE0QyIvPgo8L3N2Zz4K';this.style.objectFit='contain';" />
+        </div>
+    </section>
+
+    <section id="sobre-mi" class="seccion-sobre-mi">
+        <div class="contenido-sobre-mi animacion-desplazamiento desde-abajo">
+            <h2>Sobre Mí</h2>
+            <p>Mi vida es una aventura creativa donde cada día es una oportunidad para superarme. Soy un apasionado del diseño, los videojuegos y la lectura, y encuentro en el ejercicio físico la energía para mantener mi mente y mi creatividad en movimiento.</p>
+            <p>Cada reto es una oportunidad para crecer y reinventarme. El diseño es mi forma de conectar ideas, emociones y experiencias en algo memorable.</p>
+            <p>Fuera de la pantalla, me sumerjo en mundos literarios, exploro universos digitales y disfruto cada logro, grande o pequeño, como si fuera el siguiente nivel de un videojuego. Mi objetivo es claro: transformar cada proyecto en una experiencia única, donde la innovación y la pasión sean los protagonistas.</p>
+            <div class="contenedor-iconos">
+                <i class="fas fa-music"></i>
+                <i class="fas fa-book"></i>
+                <i class="fas fa-dumbbell"></i>
+                <i class="fas fa-code"></i>
+            </div>
+        </div>
+    </section>
+
+    <section id="habilidades" class="seccion-habilidades">
+        <h2>Habilidades</h2>
+        
+        <div class="categoria-habilidades animacion-desplazamiento desde-derecha">
+            <h3>Diseño y experiencia de usuario</h3>
+            <div class="rejilla-habilidades">
+                <div class="tarjeta-habilidad">
+                    <i class="fab fa-figma"></i>
+                    <h3>Figma</h3>
+                    <div class="progreso-habilidad">
+                        <div class="barra-progreso-habilidad" style="width: 75%"></div>
+                    </div>
+                    <p class="nivel-habilidad">Avanzado</p>
+                </div>
+                <div class="tarjeta-habilidad">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Prototipado UX</h3>
+                    <div class="progreso-habilidad">
+                        <div class="barra-progreso-habilidad" style="width: 75%"></div>
+                    </div>
+                    <p class="nivel-habilidad">Avanzado</p>
+                </div>
+                <div class="tarjeta-habilidad">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Diseño Responsive</h3>
+                    <div class="progreso-habilidad">
+                        <div class="barra-progreso-habilidad" style="width: 80%"></div>
+                    </div>
+                    <p class="nivel-habilidad">Avanzado</p>
+                </div>
+                <div class="tarjeta-habilidad">
+                    <i class="fas fa-font"></i>
+                    <h3>Tipografía</h3>
+                    <div class="progreso-habilidad">
+                        <div class="barra-progreso-habilidad" style="width: 50%"></div>
+                    </div>
+                    <p class="nivel-habilidad">Intermedio</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="categoria-habilidades animacion-desplazamiento escala-entrada">
+            <h3>Desarrollo web</h3>
+            <div class="rejilla-habilidades">
+                <div class="tarjeta-habilidad">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML5</h3>
+                    <div class="progreso-habilidad">
+                        <div class="barra-progreso-habilidad" style="width: 90%"></div>
+                    </div>
+                    <p class="nivel-habilidad">Avanzado</p>
+                </div>
+                <div class="tarjeta-habilidad">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS3</h3>
+                    <div class="progreso-habilidad">
+                        <div class="barra-progreso-habilidad" style="width: 85%"></div>
+                    </div>
+                    <p class="nivel-habilidad">Avanzado</p>
+                </div>
+                <div class="tarjeta-habilidad">
+                    <i class="fas fa-th"></i>
+                    <h3>Flexbox & Grid</h3>
+                    <div class="progreso-habilidad">
+                        <div class="barra-progreso-habilidad" style="width: 80%"></div>
+                    </div>
+                    <p class="nivel-habilidad">Avanzado</p>
+                </div>
+                <div class="tarjeta-habilidad">
+                    <i class="fab fa-js"></i>
+                    <h3>JavaScript</h3>
+                    <div class="progreso-habilidad">
+                        <div class="barra-progreso-habilidad" style="width: 30%"></div>
+                    </div>
+                    <p class="nivel-habilidad">Básico</p>
+                </div>
+                <div class="tarjeta-habilidad">
+                    <i class="fas fa-cubes"></i>
+                    <h3>Liferay</h3>
+                    <div class="progreso-habilidad">
+                        <div class="barra-progreso-habilidad" style="width: 50%"></div>
+                    </div>
+                    <p class="nivel-habilidad">Intermedio</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="categoria-habilidades animacion-desplazamiento desde-izquierda">
+            <h3>Herramientas creativas</h3>
+            <div class="rejilla-habilidades">
+                <div class="tarjeta-habilidad">
+                    <i class="fas fa-brush"></i>
+                    <h3>Photoshop</h3>
+                    <div class="progreso-habilidad">
+                        <div class="barra-progreso-habilidad" style="width: 50%"></div>
+                    </div>
+                    <p class="nivel-habilidad">Intermedio</p>
+                </div>
+                <div class="tarjeta-habilidad">
+                    <i class="fas fa-pen-nib"></i>
+                    <h3>Illustrator</h3>
+                    <div class="progreso-habilidad">
+                        <div class="barra-progreso-habilidad" style="width: 50%"></div>
+                    </div>
+                    <p class="nivel-habilidad">Intermedio</p>
+                </div>
+                <div class="tarjeta-habilidad">
+                    <i class="fas fa-vector-square"></i>
+                    <h3>Adobe XD</h3>
+                    <div class="progreso-habilidad">
+                        <div class="barra-progreso-habilidad" style="width: 75%"></div>
+                    </div>
+                    <p class="nivel-habilidad">Avanzado</p>
+                </div>
+                <div class="tarjeta-habilidad">
+                    <i class="fas fa-film"></i>
+                    <h3>Premier Pro</h3>
+                    <div class="progreso-habilidad">
+                        <div class="barra-progreso-habilidad" style="width: 30%"></div>
+                    </div>
+                    <p class="nivel-habilidad">Básico</p>
+                </div>
+                <div class="tarjeta-habilidad">
+                    <i class="fas fa-wave-square"></i>
+                    <h3>After Effects</h3>
+                    
+                    <div class="progreso-habilidad">
+                        <div class="barra-progreso-habilidad" style="width: 30%"></div>
+                    </div>
+                    <p class="nivel-habilidad">Básico</p>
+                </div>
+                <div class="tarjeta-habilidad">
+                    <i class="fas fa-music"></i>
+                    <h3>Audition</h3>
+                    <div class="progreso-habilidad">
+                        <div class="barra-progreso-habilidad" style="width: 30%"></div>
+                    </div>
+                    <p class="nivel-habilidad">Básico</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="proyectos" class="seccion-proyectos desenfoque-entrada">
+        <h2>Proyectos</h2>
+        <div class="carrusel-proyectos">
+            <button class="flecha-carrusel flecha-izquierda" aria-label="Proyectos anteriores">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            
+            <div class="contenedor-carrusel">
+                <div class="carrusel-track">
+                    <div class="tarjeta-proyecto">
+                        <div class="imagen-proyecto">
+                            <img src="img/cosmos life.PNG" alt="Cosmos Life" loading="lazy" onerror="this.onerror=null;this.src='logo.svg';this.style.objectFit='contain';">
+                            <div class="superposicion-proyecto">
+                                <div class="etiquetas-proyecto">
+                                    <span class="etiqueta">Diseño Web</span>
+                                    <span class="etiqueta">Responsive</span>
+                                    <span class="etiqueta">UI/UX</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info-proyecto">
+                            <h3>Cosmos Life</h3>
+                            <p>Sitio de productos inspirados en el universo, con estructura limpia, animaciones suaves y diseño 100% responsivo.</p>
+                            <div class="enlaces-proyecto">
+                                <a href="https://jsnr17.github.io/CosmosLife/" class="enlace-proyecto demostracion">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    <span>Ver Demo</span>
+                                </a>
+                                <a href="https://github.com/JSNR17/CosmosLife" class="enlace-proyecto codigo">
+                                    <i class="fab fa-github"></i>
+                                    <span>Código</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tarjeta-proyecto">
+                        <div class="imagen-proyecto">
+                            <img src="img/valorant.PNG" alt="Valorant" loading="lazy" onerror="this.onerror=null;this.src='logo.svg';this.style.objectFit='contain';">
+                            <div class="superposicion-proyecto">
+                                <div class="etiquetas-proyecto">
+                                    <span class="etiqueta">Diseño Web</span>
+                                    <span class="etiqueta">Accesibilidad</span>
+                                    <span class="etiqueta">Experimental</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info-proyecto">
+                            <h3>Valorant</h3>
+                            <p>Diseño experimental de una interfaz inspirada en Valorant, con énfasis en colores, tipografía y estructura visual del juego.</p>
+                            <div class="enlaces-proyecto">
+                                <a href="https://jsnr17.github.io/Valorant" class="enlace-proyecto demostracion">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    <span>Ver Demo</span>
+                                </a>
+                                <a href="https://github.com/JSNR17/Valorant" class="enlace-proyecto codigo">
+                                    <i class="fab fa-github"></i>
+                                    <span>Código</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tarjeta-proyecto">
+                        <div class="imagen-proyecto">
+                            <img src="img/Lit.PNG" alt="Travis Scott" loading="lazy" onerror="this.onerror=null;this.src='logo.svg';this.style.objectFit='contain';">
+                            <div class="superposicion-proyecto">
+                                <div class="etiquetas-proyecto">
+                                    <span class="etiqueta">Diseño Web</span>
+                                    <span class="etiqueta">Experimental</span>
+                                    <span class="etiqueta">Música</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info-proyecto">
+                            <h3>LitBeats</h3>
+                            <p>Web estática como experimento visual: sin divs, solo etiquetas semánticas y clases en español.</p>
+                            <br>
+                            <div class="enlaces-proyecto">
+                                <a href="https://jsnr17.github.io/litbeats" class="enlace-proyecto demostracion">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    <span>Ver Demo</span>
+                                </a>
+                                <a href="https://github.com/JSNR17/litbeats" class="enlace-proyecto codigo">
+                                    <i class="fab fa-github"></i>
+                                    <span>Código</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tarjeta-proyecto">
+                        <div class="imagen-proyecto">
+                            <img src="img/Zettaianime.png" alt="Zettai Anime" loading="lazy" onerror="this.onerror=null;this.src='logo.svg';this.style.objectFit='contain';">
+                            <div class="superposicion-proyecto">
+                                <div class="etiquetas-proyecto">
+                                    <span class="etiqueta">Diseño Web</span>
+                                    <span class="etiqueta">Anime</span>
+                                    <span class="etiqueta">Reseñas</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info-proyecto">
+                            <h3>Zettai Anime</h3>
+                            <p>Página web enfocada en reseñas y recomendaciones de anime a gusto personal, con diseño atractivo y contenido curatorial.</p>
+                            <div class="enlaces-proyecto">
+                                <a href="https://jsnr17.github.io/zettaianime" class="enlace-proyecto demostracion">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    <span>Ver Demo</span>
+                                </a>
+                                <a href="https://github.com/JSNR17/zettaianime" class="enlace-proyecto codigo">
+                                    <i class="fab fa-github"></i>
+                                    <span>Código</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="flecha-carrusel flecha-derecha" aria-label="Proyectos siguientes">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+        
+        <div class="indicadores-carrusel">
+            <button class="indicador activo" data-slide="0"></button>
+            <button class="indicador" data-slide="1"></button>
+        </div>
+    </section>
+
+    <section id="experiencia" class="seccion-experiencia animacion-desplazamiento desde-abajo">
+        <div class="contenido-experiencia">
+            <h2>Mi Última Experiencia Laboral</h2>
+            <p class="descripcion-experiencia">Descubre mi trayectoria profesional más reciente y las habilidades que he desarrollado</p>
+            
+            <div class="timeline-container">
+                <div class="timeline-line"></div>
+                
+                                <div class="experiencia-card activa" data-periodo="2024 - Presente">
+                    <div class="experiencia-header">
+                        <div class="empresa-logo">
+                            <i class="fas fa-university"></i>
+                        </div>
+                        <div class="experiencia-info">
+                            <h3 class="puesto">Diseñador Web y Maquetador</h3>
+                            <h4 class="empresa">Pontificia Universidad Javeriana</h4>
+                            <span class="periodo">Contrato de Aprendizaje | Bogotá, Colombia</span>
+                        </div>
+                        <!--<div class="status-badge">
+                            <span> Proveedor Natural</span>
+                        </div>-->
+                    </div>
+                    
+                    <div class="experiencia-details">
+                        <div class="responsibilities">
+                            <h5>Responsabilidades Clave:</h5>
+                            <ul>
+                                <li>
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Diseño y maquetación de sitios web institucionales con identidad universitaria</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Montaje e implementación de páginas en la plataforma Liferay</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Creación y adaptación de componentes personalizados en HTML, CSS y JavaScript</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Participación en talleres de UX y construcción de wireframes</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Liderazgo en la actualización de jQuery en plantillas y componentes</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Propuesta de nuevos módulos personalizados para optimizar navegación</span>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <div class="technologies">
+                            <h5>Tecnologías Utilizadas:</h5>
+                            <div class="tech-stack">
+                                <span class="tech-tag figma">Figma</span>
+                                <span class="tech-tag adobe">Adobe XD</span>
+                                <span class="tech-tag liferay">Liferay</span>
+                                <span class="tech-tag html">HTML/CSS</span>
+                                <span class="tech-tag js">JavaScript</span>
+                                <span class="tech-tag jquery">jQuery</span>
+                                <span class="tech-tag analytics">Google Analytics</span>
+                            </div>
+                        </div>
+                        
+                        <div class="achievements">
+                            <h5>Proyectos y Logros Destacados:</h5>
+                            <div class="achievement-grid">
+                                <div class="achievement-item">
+                                    <div class="achievement-icon">
+                                        <i class="fas fa-graduation-cap"></i>
+                                    </div>
+                                    <div class="achievement-content">
+                                        <span class="achievement-number">3</span>
+                                        <span class="achievement-text">Facultades desarrolladas</span>
+                                    </div>
+                                </div>
+                                <div class="achievement-item">
+                                    <div class="achievement-icon">
+                                        <i class="fas fa-home"></i>
+                                    </div>
+                                    <div class="achievement-content">
+                                        <span class="achievement-number">Iniciativa 5</span>
+                                        <span class="achievement-text">Reestructuración Home</span>
+                                    </div>
+                                </div>
+                                <div class="achievement-item">
+                                    <div class="achievement-icon">
+                                        <i class="fas fa-shield-alt"></i>
+                                    </div>
+                                    <div class="achievement-content">
+                                        <span class="achievement-number">UX</span>
+                                        <span class="achievement-text">Workshops y Wireframes</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="project-highlights">
+                                <h6>Proyectos Destacados:</h6>
+                                <div class="project-tags">
+                                    <span class="project-tag education">Facultad de Educación</span>
+                                    <span class="project-tag finance">Apoyo Financiero</span>
+                                    <span class="project-tag security">Ciberseguridad</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!--<div class="experiencia-nav">
+                    <button class="nav-btn prev-btn" disabled>
+                        <i class="fas fa-chevron-left"></i>
+                        <span>Anterior</span>
+                    </button>
+                    <div class="nav-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+            </div>
+                    <button class="nav-btn next-btn">
+                        <span>Siguiente</span>
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+            </div>
+            </div>
+        </div>-->
+    </section>
+
+    <section id="proceso" class="seccion-proceso animacion-desplazamiento desde-izquierda">
+        <h2>Mi Proceso de Trabajo</h2>
+        <div class="proceso-timeline">
+            <div class="paso-proceso">
+                <div class="numero-paso">01</div>
+                <div class="contenido-paso">
+                    <h3>Descubrimiento</h3>
+                    <p>Entiendo tus necesidades, objetivos y audiencia objetivo para crear la estrategia perfecta.</p>
+                </div>
+            </div>
+            <div class="paso-proceso">
+                <div class="numero-paso">02</div>
+                <div class="contenido-paso">
+                    <h3>Diseño</h3>
+                    <p>Creo wireframes y prototipos interactivos que reflejen tu visión y objetivos.</p>
+                </div>
+            </div>
+            <div class="paso-proceso">
+                <div class="numero-paso">03</div>
+                <div class="contenido-paso">
+                    <h3>Desarrollo</h3>
+                    <p>Transformo los diseños en código limpio, responsive y optimizado para rendimiento.</p>
+                </div>
+            </div>
+            <div class="paso-proceso">
+                <div class="numero-paso">04</div>
+                <div class="contenido-paso">
+                    <h3>Entrega</h3>
+                    <p>Realizo pruebas exhaustivas y entrego un producto final pulido y listo para usar.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="seccion-contacto desenfoque-entrada">
+        <div class="contenido-contacto">
+            <h2>Contacto</h2>
+            <p class="texto-contacto">Conéctate conmigo a través de mis redes sociales. ¡Me encantaría saber de ti!</p>
+            <div class="rejilla-redes-sociales">
+                <a href="https://wa.me/573028167932" target="_blank" class="enlace-red-social whatsapp" aria-label="WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>WhatsApp</span>
+                </a>
+                
+                <a href="https://www.linkedin.com/in/sebastian-neuta-rey-a78376217" target="_blank" class="enlace-red-social linkedin" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://www.instagram.com/sayn_._" target="_blank" class="enlace-red-social instagram" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                    <span>Instagram</span>
+                </a>
+
+                </a>
+                <a href="https://t.me/sayn_17" target="_blank" class="enlace-red-social telegram" aria-label="Telegram">
+                    <i class="fab fa-telegram-plane"></i>
+                    <span>Telegram</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="ambiente-visual" class="seccion-ambiente animacion-desplazamiento escala-entrada">
+        <h2>Mood Visual</h2>
+        <p class="descripcion-ambiente">Un recorrido por los fragmentos visuales que inspiran y nutren mi universo creativo.</p>
+        
+        <div class="rejilla-bento">
+            <div class="item-bento grande"> 
+                <img src="img/Minimalista.jpg" alt="Diseño Minimalista" loading="lazy" onerror="this.onerror=null;this.src='logo.svg';this.style.objectFit='contain';">
+                <div class="contenido-bento">
+                    <h3>Minimalismo</h3>
+                    <p>Menos es más</p>
+                </div>
+            </div>
+
+            <div class="item-bento">
+                <img src="img/paleta.jpg" alt="Paleta de Colores" loading="lazy" onerror="this.onerror=null;this.src='logo.svg';this.style.objectFit='contain';">
+                <div class="contenido-bento">
+                    <h3>Colores</h3>
+                    <p>Paletas que inspiran</p>
+                </div>
+            </div>
+
+            <div class="item-bento item-icono">
+                <i class="fas fa-palette"></i>
+                <div class="contenido-bento">
+                    <h3>Diseño</h3>
+                    <p>Creatividad sin límites</p>
+                </div>
+            </div>
+
+            <div class="item-bento gradiente">
+                <div class="contenido-bento">
+                    <h3>Gradientes</h3>
+                    <p>Transiciones suaves</p>
+                </div>
+            </div>
+
+            <div class="item-bento">
+                <img src="img/TIPOGRAFIA.png" alt="Tipografía" loading="lazy" onerror="this.onerror=null;this.src='logo.svg';this.style.objectFit='contain';">
+                <div class="contenido-bento">
+                    <h3>Tipografía</h3>
+                    <p>El poder de las letras</p>
+                </div>
+            </div>
+
+            <div class="item-bento grande video">
+                <video autoplay muted loop playsinline poster="logo.svg">
+                    <source src="video/movimiento2.mp4" type="video/mp4" >
+                </video>
+                <div class="contenido-bento">
+                    <h3>Movimiento</h3>
+                    <p>Animaciones fluidas</p>
+                </div>
+            </div>
+
+            <div class="item-bento">
+                <img src="img/textura.png" alt="Texturas" loading="lazy" onerror="this.onerror=null;this.src='logo.svg';this.style.objectFit='contain';">
+                <div class="contenido-bento">
+                    <h3>Texturas</h3>
+                    <p>Profundidad visual</p>
+                </div>
+            </div>
+
+            <div class="item-bento cita">
+                <div class="contenido-bento">
+                    <blockquote>
+                        "El diseño no es solo lo que se ve y se siente. El diseño es cómo funciona."
+                    </blockquote>
+                    <cite>- Steve Jobs</cite>
+                </div>
+            </div>
+
+            <div class="item-bento musica">
+                <div class="ondas-musicales">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="contenido-bento">
+                    <h3>Ritmo</h3>
+                    <p>La música que inspira mi trabajo</p>
+                </div>
+            </div>
+
+            <div class="item-bento codigo">
+                <div class="animacion-codigo">
+                    <pre><code>
+.creativity {
+    limit: none;
+    passion: infinite;
+}
+                    </code></pre>
+                </div>
+                <div class="contenido-bento">
+                    <h3>Código</h3>
+                    <p>Donde la lógica encuentra el arte</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="proposito" class="seccion-proposito animacion-desplazamiento desde-derecha">
+        <h2>Diseño con Propósito</h2>
+        <div class="contenido-proposito">
+            <p>"Cada proyecto que creo nace de una intención clara: conectar visualmente con quien lo ve. No solo busco que algo se vea bien, sino que tenga un porqué."</p>
+            <div class="iconos-proposito">
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-lightbulb"></i>
+                <i class="fas fa-paint-brush"></i>
+            </div>
+        </div>
+    </section>
+
+    
+
+    
+
+    <footer class="pie-pagina">
+        <div class="contenido-pie-pagina">
+            <p class="texto-pie-pagina">¿Listo para crear algo increíble? ¡Hablemos!</p>
+            <button id="huevo-pascua" class="huevo-pascua">
+                <i class="fas fa-star"></i>
+            </button>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
